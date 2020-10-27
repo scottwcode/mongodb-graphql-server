@@ -1,8 +1,12 @@
+// require('dotenv').config();
+import dotenv from 'dotenv';
 import { ApolloServer, gql } from "apollo-server-express";
 import express from "express";
 import  mongoose from "mongoose";
 import { resolvers } from "./resolvers.js";
 import { typeDefs } from "./typeDefs.js";
+
+dotenv.config();
 
 const startServer = async () => {
   const app = express();
@@ -19,6 +23,10 @@ const startServer = async () => {
   });
 
   //  await mongoose.connect(`${process.env.MONGO_URI}`, {
+  //   useNewUrlParser: true
+  // });
+
+  //  await mongoose.connect(process.env.MONGO_URI, {
   //   useNewUrlParser: true
   // });
   
