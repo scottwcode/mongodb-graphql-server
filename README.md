@@ -2,9 +2,9 @@
 
 ## Pre-Reqs
 
-- node to be able to run npm or yarn to install dependencies and run a server
-- github to be able to clone/copy repo
-- Need MongoDB account and cluster created to be able to add collections (free tier should be fine)
+- node to be able to run npm to install dependencies and run a node server
+- github account if you want to clone/copy repo
+- MongoDB account with a cluster created to be able to add collections (free tier should be fine)
 
 Also uses the following dependencies via npm install (or yarn add)
 
@@ -24,12 +24,17 @@ npm install
 
 ## Step 3: Create an .env file and add your connectivity info in it
 
-PORT=4000
-HOST=localhost
-MONGO_USER=<YOUR-MONGO-USER-ID>
-MONGO_PASS=<YOUR-MONGO-USER-PASSWD>
-MONGO_DB=<MONGO-DB-YOU-WANT-TO-USE>
-##Step 4: Start the API by running the following
+#### PORT=4000
+
+#### HOST=localhost
+
+#### MONGO_USER=<YOUR-MONGO-USER-ID>
+
+#### MONGO_PASS=<YOUR-MONGO-USER-PASSWD>
+
+#### MONGO_DB=<MONGO-DB-YOU-WANT-TO-USE>
+
+## Step 4: Start the API by running the following
 
 npm start
 
