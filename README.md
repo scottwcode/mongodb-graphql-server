@@ -1,5 +1,7 @@
 # GraphQL server with MongoDB
 
+#### A react app that sets up a graphQL server to access a mongoDB database. The example just has schema to add dog names to a collection in a given mongoDB via a locally hosted graphQL server.
+
 ## Pre-Reqs
 
 - node to be able to run npm to install dependencies and run a node server
