@@ -46,7 +46,11 @@ npm start
 
 http://localhost:4000/graphql
 
+![graph QL createDog screenshot](screenshots/graphQL-createdog.png 'graphQL-createDog-mutation')
+
 ## Step 6: See the dogs you added in your MongoDB in a collection called dogs
+
+![MongoDB dogs collection screenshot](screenshots/mongoDB-createdog.png 'mongoDB-dogs-collection')
 
 ### Author
 
