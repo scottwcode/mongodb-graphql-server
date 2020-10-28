@@ -6,7 +6,7 @@
 - github account if you want to clone/copy repo
 - MongoDB account with a cluster created to be able to add collections (free tier should be fine)
 
-Also uses the following dependencies via npm install (or yarn add)
+Also uses the following dependencies via npm install
 
 - mongoose - used for MongoDB connectivity
 - nodemon - to auto-restart node server when changes are made
@@ -20,7 +20,7 @@ To set up the project
 git clone https://github.com/scottwcode/mongodb-graphql-server
 ```
 
-## Step 2: cd into your local cloned repo and run:
+## Step 2: cd into your local cloned repo and run the following to update dependencies:
 
 ```bash
 npm install
@@ -29,11 +29,11 @@ npm install
 ## Step 3: Create an .env file and add your connectivity info in it
 
 ```bash
-> PORT=4000
-> HOST=localhost
-> MONGO_USER=YOUR-MONGO-USER-ID
-> MONGO_PASS=YOUR-MONGO-USER-PASSWD
-> MONGO_DB=MONGO-DB-YOU-WANT-TO-USE
+PORT=4000
+HOST=localhost
+MONGO_USER=YOUR-MONGO-USER-ID
+MONGO_PASS=YOUR-MONGO-USER-PASSWD
+MONGO_DB=MONGO-DB-YOU-WANT-TO-USE
 ```
 
 ## Step 4: Start the API by running the following
@@ -41,6 +41,12 @@ npm install
 ```bash
 npm start
 ```
+
+## Step 5: Add any dogs you would like through graphql at your localhost and port
+
+http://localhost:4000/graphql
+
+## Step 6: See the dogs you added in your MongoDB in a collection called dogs
 
 ### Author
 
