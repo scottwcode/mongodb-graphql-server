@@ -9,6 +9,9 @@
 Also uses the following dependencies via npm install
 
 - mongoose - used for MongoDB connectivity
+- express - popular library for Node.js
+- apollo-server - A library that helps connect a GraphQL schema to an HTTP server in Node
+- apollo-server-express - Connectivity between Apollo Server and Express
 - nodemon - to auto-restart node server when changes are made
 - dotenv - used for environment vars.
 
