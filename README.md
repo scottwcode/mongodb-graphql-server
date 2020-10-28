@@ -16,23 +16,31 @@ To set up the project
 
 ## Step 1: Clone or Copy the repo
 
+```bash
 git clone https://github.com/scottwcode/mongodb-graphql-server
+```
 
 ## Step 2: cd into your local cloned repo and run:
 
+```bash
 npm install
+```
 
 ## Step 3: Create an .env file and add your connectivity info in it
 
+```bash
 > PORT=4000
 > HOST=localhost
 > MONGO_USER=YOUR-MONGO-USER-ID
 > MONGO_PASS=YOUR-MONGO-USER-PASSWD
 > MONGO_DB=MONGO-DB-YOU-WANT-TO-USE
+```
 
 ## Step 4: Start the API by running the following
 
+```bash
 npm start
+```
 
 ### Author
 
