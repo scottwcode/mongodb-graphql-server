@@ -1,4 +1,4 @@
-# Basic GraphQL server using MongoDB
+# GraphQL server with MongoDB
 
 ## Pre-Reqs
 
