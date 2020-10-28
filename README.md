@@ -24,15 +24,11 @@ npm install
 
 ## Step 3: Create an .env file and add your connectivity info in it
 
-#### PORT=4000
-
-#### HOST=localhost
-
-#### MONGO_USER=<YOUR-MONGO-USER-ID>
-
-#### MONGO_PASS=<YOUR-MONGO-USER-PASSWD>
-
-#### MONGO_DB=<MONGO-DB-YOU-WANT-TO-USE>
+> PORT=4000
+> HOST=localhost
+> MONGO_USER=YOUR-MONGO-USER-ID
+> MONGO_PASS=YOUR-MONGO-USER-PASSWD
+> MONGO_DB=MONGO-DB-YOU-WANT-TO-USE
 
 ## Step 4: Start the API by running the following
 
